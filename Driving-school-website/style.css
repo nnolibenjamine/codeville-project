@@ -1,0 +1,363 @@
+       /* for all         */
+    .all{
+        background-color: #e5e5e5;
+    }
+    /* index.html */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.containter{
+    margin: 0 auto;
+    gap: 25px;
+    background-image:url(./image/driving\ school\ background.jpg) ;
+    background-repeat: no-repeat;
+     background-size: cover;
+     flex-direction:column ;
+     height: 790px;
+     width: 100%;
+
+}
+ .header{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 20px; 
+    background-color: blue;
+    width: 100%;
+}
+.logo img{
+    width: 250px;
+    height: 100px;
+    border-radius: 100px;
+    /* border: 2px solid red; */
+}
+nav{
+  display: flex;
+  gap: 95px;
+  justify-content: flex-end;
+  
+    
+}
+nav ul{
+    display: flex;
+    gap: 130px;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    width: 160px;
+    
+}
+nav ul li a{
+     padding: 15px; 
+    outline: none;
+    text-decoration:none ;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 1200px;
+
+}
+nav ul li a:hover{
+    color: red;
+    border-bottom:2px solid blue;
+    border-top:2px solid blue ;
+}
+
+.hero{
+    padding: 20px;
+    display: grid;
+    color: white;
+    gap: 2px;
+     font-size: 30px;
+    font-weight: 500;
+    
+}
+
+
+/* .button{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+} */
+.hero{
+    display: grid;
+    gap: 20px;
+    /* background-color: #e5e5e5; */
+    width: 800px;
+}
+.drop-button{
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-color: black; 
+    font-size: xx-large;
+    cursor: pointer;
+}
+.drop-content{
+    display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 16px;
+  box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+  padding: 50px 40px;
+  z-index: 2;
+  font-size: 20px;
+}
+.dr{
+    height: 20px;
+    width: 200px;
+    font-size: x-large;
+}
+.de{
+    height: 20px;
+    width: 80px;
+    font-size: x-large;
+}
+.drop-button:hover{
+    color: white;
+} 
+.drop-down:hover .drop-content{
+    display: block; 
+    color:black;
+}
+
+.drop-course{
+}
+.drop-button1{
+    text-align: center;
+    justify-content: center;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 2px;
+    width: 200px; 
+    height: 40px;
+    cursor: pointer;
+}
+/* input[type=text]:focus {
+  border: 3px solid green;
+} */
+.hero-text {
+    display: grid;
+    color: black;
+    gap: 2px;
+    background-color: #e5e5e5;
+    padding: 30px 40px;
+
+}
+.hero-title{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.hero-meta{
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-meta span {
+    color: blue;
+}
+.hero-content{
+    font-size: 25px;
+    font-weight: 500;
+}
+.containter footer{
+    padding: 40px 20px 20px; 
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+.containter footer a{
+    padding: 15px;
+    outline: none;
+    text-decoration:none ;
+    color:navy ;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+.containter footer a:hover{
+    color: green;
+    border-bottom:2px solid blue;
+    border-top:2px solid blue ;
+}
+
+
+                        /* TYPE */
+.type{
+    display: flex;
+    justify-content: center;
+}
+.car{
+    display: grid;
+    gap: 50px;
+}
+/* .car a{
+    text-decoration: none;
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+    width: 1500px;
+    border: 2px solid goldenrod;
+    padding: 2px;
+    text-align: center;
+} */
+                        /* type-image */
+.type-image{
+display: flex;
+}
+
+.image{
+    display: grid;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.image img{
+    height: 900px;
+    width: 1200px;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+                               /* service */
+.service{
+    max-width: 1500px;
+    background-color: white;
+    display: grid;
+    margin: 0 auto;
+
+}
+.price-cost{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.price{
+    justify-content: center;
+    border: 2px solid  green;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2); 
+    padding: 2px 2px;
+    text-align: center;
+    flex-direction: row;
+    width: 300px;
+    height: 400px;
+    gap: 50px;
+    background-color: black ;
+}
+.price h2{
+    font-size: 50px;
+    color: goldenrod;
+    margin-top: 100px;
+}
+.price p{
+    font-size: 50px;
+    text-align: center;
+    color: gold;
+}
+.type-course{
+    text-align: center;
+    text-decoration: none;
+    gap: 30px;
+    display: grid;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+/* .people{
+    border: 3px solid none;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.people img{
+    border-radius: 20px;
+}
+.people p{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 10px;
+} */
+.type-car{
+    display: grid;
+    gap: 50px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: baseline;
+   background-color: azure;
+}
+ h1{
+    color: blue;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px 20px;
+}
+.type-car img{
+    width: 250px;
+    height: 250px;
+}
+.car{
+    justify-content: center; 
+    padding: 20px 20px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: aquamarine;
+}
+.teacher{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #e5e5e5;
+}
+.teacher img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+                /* contact */
+.con{
+    justify-content: space-between;
+    background-color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+.contact{
+    font-size: 50px;
+    width: 1200px;
+    border-radius: 30px;
+    border: 2px solid grey;
+}
+.contact-b{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    width: 500px;
+    border-radius: 50px;
+}
+.people{
+    display: grid;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+
+             /* ABOUT */
+.about{
+    background-color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+}
